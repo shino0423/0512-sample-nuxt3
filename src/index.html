@@ -11,6 +11,13 @@
 <body>
   <main>
     <h1>Vanilla JavaScript App</h1>
+    const nodeVersion = process.version;
+    console.log(`Node.js Version: ${nodeVersion}`);
+    if (nodeVersion.startsWith('v20')) {
+    console.log('Node.js 20.x を使用しています');
+    } else {
+    console.log('Node.js 20.x 以外のバージョンです');
+}
   </main>
 </body>
 
